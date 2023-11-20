@@ -1,0 +1,62 @@
+/*Base Style*/
+* {
+	box-sizing: border-box;
+     font-family: sans-serif;
+}
+section div p{padding: 6px; margin: 8px;}
+h1 {
+    color: black;
+	margin-bottom: 20;
+    text-align: center;
+}
+
+p {
+	color: black;
+    border-color: lightblue;
+
+}
+section .box{height: 160px; background-color: #999; border: solid 1px #000; margin: 8px;}
+section .box p{margin: 20px;}
+section .box #hd1{padding: 0px; margin: 0px; background: yellow; width: 80px; float: right; text-align: center;}
+section .box #hd2{padding: 0px; margin: 0px; background: yellow; width: 80px; float: right; text-align: center;}
+section .box #hd3{padding: 0px; margin: 0px; background: yellow; width: 80px; float: right; text-align: center;}
+
+/*large devices*/
+@media(min-width: 992px) {
+#box1 {
+     width: 30.3%;
+     float: left;
+     margin-bottom: 20px;
+     
+    }
+#box2 {
+     width: 30.3%;
+     float: left;
+     margin-bottom: 20px;
+     
+    } 
+#box3 {
+	 width: 30.3%;
+      float: left;
+     
+    }
+}
+/***** Medium devices*******/
+@media(min-width: 768px) and (max-width: 991px) {
+#box1 {
+     width: 48%;
+     float: left;
+     margin-bottom: 20px;
+    }
+#box2 {
+     width: 48%;
+     float: left;
+     margin-bottom: 20px;
+    } 
+#box3 {
+     width: 100%;
+     float: left;
+    }
+}
+
+  
